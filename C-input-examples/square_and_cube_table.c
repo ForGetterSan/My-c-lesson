@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
+
     int mynumber1;
 
     printf("Enter any number: ");
@@ -14,10 +16,9 @@ int main() {
     printf("------------------\t\t");
     printf("---------------\n");
 
-    // Sabit genişlikte yazdır (10 karakterlik alan)
-    printf("%-10d\t\t", mynumber1);
-    printf("%-10d\t\t", mynumber1 * mynumber1);
-    printf("%-10d\n", mynumber1 * mynumber1 * mynumber1);
+    printf("%d\t\t\t", mynumber1);
+    printf("%d\t\t\t", mynumber1 * mynumber1);
+    printf("%d\n", mynumber1 * mynumber1 * mynumber1);
 
     return 0;
 }
