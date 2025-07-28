@@ -3,11 +3,11 @@
 
 int main() {
 
-    int mynumber1, mynumber2, mynumber3,division;
+    int mynumber1, mynumber2, mynumber3,extraction;
 
     mynumber1 = mynumber2 = mynumber3 = 25;
 
-    division= mynumber1 - mynumber2 - mynumber3;
+    extraction= mynumber1 - mynumber2 - mynumber3;
 
     printf("Your number one is: %d\n", mynumber1);
 
@@ -15,7 +15,7 @@ int main() {
 
     printf("Your number three is: %d\n", mynumber3);
 
-    printf("The subtraction of all numbers is: %d\n", division);
+    printf("The subtraction of all numbers is: %d\n", extraction);
 
 
     return 0;
