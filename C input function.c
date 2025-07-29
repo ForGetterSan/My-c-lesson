@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+
+int mynumber1;
+
+printf("enter a number:");
+
+scanf("%d",&mynumber1);
+
+printf("your number is%d",mynumber1);
+
+}
