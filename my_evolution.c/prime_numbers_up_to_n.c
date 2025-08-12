@@ -3,7 +3,7 @@
 
 int main() {
     int i;
-    float sumgrade, average, examgrade;
+    float sumgrade, average, examgrade; 
 
     sumgrade = 0.0;
     examgrade = 0.0;
