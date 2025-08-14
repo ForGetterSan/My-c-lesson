@@ -8,11 +8,9 @@ int main() {
     scanf("%d", &number);
 
     for (i = 1; i <= number; i++) {
-        // Print leading spaces
         for (j = 1; j <= number - i; j++) {
             printf(" ");
         }
-        // Print stars
         for (j = 1; j <= i; j++) {
             printf("* ");
         }
