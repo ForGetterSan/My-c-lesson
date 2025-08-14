@@ -3,7 +3,7 @@
 
 int main() {
     int i, a, j, number = 1;
-    char letter;
+    char letter; 
     a = 0;
 
     printf("Enter a letter: ");
