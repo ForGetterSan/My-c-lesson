@@ -9,9 +9,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v4
+
+    # 1. Adım: Gerekli derleme araçlarını kurar.
+    # Bu adım, GCC derleyicisinin ve diğer temel araçların
+    # CI ortamına yüklendiğinden emin olur.
+    - name: Install build tools
+      run: sudo apt-get update && sudo apt-get install -y build-essential
+
+    # 2. Adım: Kodunuzu derler.
     - name: Compile C program
       run: gcc main.c -o main
+
+    # 3. Adım: Programı çalıştırır.
     - name: Run program
       run: ./main
