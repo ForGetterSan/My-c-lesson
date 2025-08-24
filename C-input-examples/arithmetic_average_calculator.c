@@ -5,7 +5,7 @@ int main () {
 
     float a, b, c, d, average;
 
-    printf("Enter 4 numbers: ");
+    printf("Enter 4 numbers: "); 
     scanf("%f%f%f%f", &a, &b, &c, &d);
 
     average = (a + b + c + d) / 4;
